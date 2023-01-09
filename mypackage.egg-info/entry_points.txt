@@ -1,2 +1,0 @@
-[console_scripts]
-mypackage = mypackage:run_mypackage
