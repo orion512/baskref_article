@@ -1,0 +1,30 @@
+## mypackage
+## pyproject.toml
+
+[build-system]
+requires = [
+  "setuptools",
+  "wheel",
+  ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+version = "1.0"
+authors = [{name="Dominik Zulovec Sajovic"},]
+keywords = ["basketball", "web scraper", "python"]
+description = "supporting package for the article"
+license = {file="LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests==2.28.1",
+  "beautifulsoup4==4.11.1",
+]
+
+[project.scripts]
+mypackage= "mypackage:run_mypackage"

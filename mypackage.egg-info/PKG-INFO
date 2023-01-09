@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mypackage
+Version: 1.0
+Summary: supporting package for the article
+Author: Dominik Zulovec Sajovic
+Keywords: basketball,web scraper,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
